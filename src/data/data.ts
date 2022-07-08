@@ -1,11 +1,4 @@
-import pic_1 from "./pictures/pic_1.jpg";
-import pic_2 from "./pictures/pic_2.jpg";
-import pic_3 from "./pictures/pic_3.jpg";
-import pic_4 from "./pictures/pic_4.jpg";
-import pic_5 from "./pictures/pic_5.jpg";
-import pic_6 from "./pictures/pic_6.jpg";
-import pic_7 from "./pictures/pic_7.jpg";
-import pic_8 from "./pictures/pic_8.png";
+import pic_1 from "./pictures/TricityMonsters.gif";
 
 export type dataElem = {
 	label: string,
@@ -146,13 +139,6 @@ export const links: linkGroup[] = [
 
 export const images: dataElem[] = [
 	{ label: "pic_1", value: pic_1 },
-	{ label: "pic_2", value: pic_2 },
-	{ label: "pic_3", value: pic_3 },
-	{ label: "pic_4", value: pic_4 },
-	{ label: "pic_5", value: pic_5 },
-	{ label: "pic_6", value: pic_6 },
-	{ label: "pic_7", value: pic_7 },
-	{ label: "pic_8", value: pic_8 },
 ];
 
 export const searchEngines: dataElem[] = [
