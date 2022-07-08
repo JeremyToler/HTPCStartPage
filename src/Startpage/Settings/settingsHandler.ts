@@ -62,7 +62,8 @@ export const Design = {
     },
     getWithFallback: () => {
         try {
-            return Design.get() || themes[0];
+            var r = Math.floor(Math.random() * Math.floor(themes.length))
+            return themes[r];
         } catch {
             console.error("Your currently applied design appears to be corrupted.");
             return themes[0];
@@ -75,6 +76,7 @@ export const Design = {
 
 
 export const Themes = {
+
     get: () => {
         const lsThemes = localStorage.getItem("themes");
         if (!!lsThemes)
