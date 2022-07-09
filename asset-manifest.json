@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.42fcf7fb.css",
-    "main.js": "./static/js/main.88262820.js",
-    "static/media/TricityMonsters.gif": "./static/media/TricityMonsters.626b593bf262b7861c84.gif",
+    "main.css": "./static/css/main.b7e485fe.css",
+    "main.js": "./static/js/main.fde329b4.js",
     "static/media/FiraCode-Regular.woff": "./static/media/FiraCode-Regular.19a2738eed5f65644ea5.woff",
     "static/media/FiraCode-Light.woff": "./static/media/FiraCode-Light.e37fbea8ec98ce1ed3c5.woff",
     "static/media/logo.png": "./static/media/logo.ed388bf3dc802a18f63b.png",
     "static/media/duckduckgo.svg": "./static/media/duckduckgo.ae4e5e007a6260841f7e0374942a4c0c.svg",
     "static/media/google.svg": "./static/media/google.35cb91e86c1f97290021370ae33bedb7.svg",
     "index.html": "./index.html",
-    "main.42fcf7fb.css.map": "./static/css/main.42fcf7fb.css.map",
-    "main.88262820.js.map": "./static/js/main.88262820.js.map"
+    "main.b7e485fe.css.map": "./static/css/main.b7e485fe.css.map",
+    "main.fde329b4.js.map": "./static/js/main.fde329b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.42fcf7fb.css",
-    "static/js/main.88262820.js"
+    "static/css/main.b7e485fe.css",
+    "static/js/main.fde329b4.js"
   ]
 }
