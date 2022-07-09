@@ -245,7 +245,7 @@ export const DesignSettings = ({ design, setDesign, themes, setThemes }: props) 
                 <AccordionPreviewContainer>
                     <AccordionPreview title={"Text Color"} colorVar={"--default-color"} />
                     <AccordionPreview title={"Accent"} colorVar={"--accent-color"} />
-                    <AccordionPreview title={"Accent 2"} colorVar={"--accent-color2"} />
+                    <AccordionPreview title={"Highlight"} colorVar={"--accent-color2"} />
                 </AccordionPreviewContainer>
             </DesignPreview>
         </>

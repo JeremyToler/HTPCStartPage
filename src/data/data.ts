@@ -9,127 +9,103 @@ export type linkGroup = {
 }
 export const links: linkGroup[] = [
 	{
-		title: "Reddit",
+		title: "Games",
 		links: [
 			{
-				label: "r/startpages",
-				value: "https://www.reddit.com/r/startpages/",
+				label: "Best Metroidvania",
+				value: "https://www.hollowknight.com/",
 			},
 			{
-				label: "r/unixporn",
-				value: "https://www.reddit.com/r/unixporn/",
+				label: "GOTY",
+				value: "https://store.steampowered.com/app/367520/Hollow_Knight/",
 			},
 			{
-				label: "r/rainmeter",
-				value: "https://www.reddit.com/r/rainmeter/",
+				label: "Best Story Game",
+				value: "https://www.gog.com/en/game/hollow_knight",
 			},
 			{
-				label: "r/AnimalsBeingDerps",
-				value: "https://www.reddit.com/r/AnimalsBeingDerps/",
+				label: "Best Platformer",
+				value: "https://www.humblebundle.com/store/hollow-knight",
 			},
 		]
 	},
 	{
-		title: "3D Modelling",
+		title: "Information",
 		links: [
 			{
-				label: "Blender",
-				value: "https://www.blender.org/",
+				label: "Wiki",
+				value: "https://hollowknight.fandom.com/wiki/Hollow_Knight_Wiki",
 			},
 			{
-				label: "BlenderGuru",
-				value: "https://www.blenderguru.com/",
+				label: "Lore",
+				value: "https://www.youtube.com/channel/UCTvH45HvnOzqXvfNJqdc3xg",
 			},
 			{
-				label: "Poliigon",
-				value: "https://www.poliigon.com/",
+				label: "A Nice Town",
+				value: "https://hollowknight.fandom.com/wiki/Dirtmouth",
 			},
 			{
-				label: "Blender tutorial",
-				value: "https://www.youtube.com/watch?v=NyJWoyVx_XI&list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U",
-			},
-			{
-				label: "The other Blender tutorial",
-				value: "https://www.youtube.com/watch?v=bpvh-9H8S1g&list=PL8eKBkZzqDiU-qcoaghCz04sMitC1yx6k&index=1",
+				label: "Worst City",
+				value: "https://hollowknight.fandom.com/wiki/City_of_Tears",
 			},
 		]
 	},
 	{
-		title: "Design",
+		title: "Celebrities",
 		links: [
 			{
-				label: "PixlrX",
-				value: "https://pixlr.com/x/",
+				label: "Mighty Hero",
+				value: "https://hollowknight.fandom.com/wiki/Zote",
 			},
 			{
-				label: "AI Image Enlarger",
-				value: "https://bigjpg.com/en",
+				label: "Great Author",
+				value: "https://hollowknight.fandom.com/wiki/Bretta",
 			},
 			{
-				label: "Img to Svg Converter",
-				value: "https://picsvg.com/",
-			},
-			{
-				label: "Affinity",
-				value: "https://affinity.serif.com/en-us/tutorials/designer/desktop/",
-			},
-			{
-				label: "Affinity - YT",
-				value: "https://www.youtube.com/c/AffinityRevolution/playlists",
+				label: "Kill stealing wimp",
+				value: "https://hollowknight.fandom.com/wiki/Knight",
 			},
 		]
 	},
 	{
-		title: "Music",
+		title: "My Stuff",
 		links: [
 			{
-				label: "i wanna be a cowboy",
-				value: "https://www.youtube.com/watch?v=8zWz92f_HGs",
+				label: "Github",
+				value: "https://github.com/JeremyToler",
 			},
 			{
-				label: "let the bodies hit the floor",
-				value: "https://www.youtube.com/watch?v=b--VKaCB9u0",
+				label: "My Other Github",
+				value: "https://github.com/lostdutchman",
 			},
 			{
-				label: "Nobody Kanna Cross It",
-				value: "https://www.youtube.com/watch?v=2wqTnwJGvtc",
+				label: "Lost Dutchman Software",
+				value: "http://lostdutchmansoftware.com/",
 			},
 			{
-				label: "Smug Dancin",
-				value: "https://www.youtube.com/watch?v=eNZ9Od1jQ4Q",
+				label: "Studio Peaches",
+				value: "https://studiopeaches.com/",
 			},
 			{
-				label: "Utamaru - The Sanctified Mind Cover",
-				value: "https://www.youtube.com/watch?v=MHlJKLlS07U",
+				label: "Portfolio",
+				value: "http://jeremytoler.github.io/",
 			},
 		]
 	},
 	{
-		title: "Sauce",
+		title: "Sources",
 		links: [
 			{
-				label: "Pictures - DeathAndMilk",
-				value: "https://www.instagram.com/deathandmilk_/",
+				label: "Fluidity - Source of this start page",
+				value: "https://github.com/PrettyCoffee/fluidity",
 			},
 			{
 				label: "Icons - FontAwesome",
 				value: "https://fontawesome.com/icons",
 			},
 			{
-				label: "Text Flicker - CodeMyUI",
-				value: "https://codemyui.com/crt-screen-text-flicker-animation-in-pure-css/",
-			},
-			{
 				label: "Wave Animation - mburakerman",
 				value: "https://codepen.io/mburakerman/pen/eRZZEv",
-			},
-			{
-				label: "Da real sauce ԅ(♡﹃♡ԅ)",
-				value: "https://www.youtube.com/watch?v=qr89xoZyE1g",
-			},
-			{
-				label: "Even more real sauce ( ͡° ͜ʖ ͡°)",
-				value: "https://www.youtube.com/watch?v=VLhJOd_TFiI",
 			},
 		]
 	},
@@ -191,6 +167,15 @@ export const themes: Theme[] = [
 		},
 	},
 	{
+		name: "MilkAndDeath",
+		colors: {
+			"--bg-color": "#2E2E2E",
+			"--default-color": "#E6E6E6",
+			"--accent-color": "#B4FFE6",
+			"--accent-color2": "#FFB4E6",
+		},
+	},
+	{
 		name: "Pop!OS",
 		colors: {
 			"--bg-color": "#333136",
@@ -227,7 +212,7 @@ export const themes: Theme[] = [
 		}
 	},
 	{
-		name: "pretty chill",
+		name: "Pretty Chill",
 		colors: {
 			"--bg-color": "#397d76",
 			"--default-color": "#f1daba",
