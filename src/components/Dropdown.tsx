@@ -41,7 +41,6 @@ const DropdownPopup = styled.div<{ height: number, items: number }>`
     background-color: var(--bg-color);
     overflow: hidden;
     z-index: 9;
-    animation: box-flicker 0.01s ease 0s infinite alternate;
     transition: ${({ items }) => items * 0.1 + "s"};
     > div {
         padding-top: 5px;

@@ -9,8 +9,6 @@ import { OptionTextInput } from "../../../components/OptionTextInput";
 import { ColorPicker } from "../../../components/ColorPicker"
 import { Theme, colorsType } from '../../../data/data';
 
-import { images } from "../../../data/data";
-
 const DesignPreview = styled.div<{ name: string, colors: colorsType }>`
     ${({ colors }) => {
         return Object.keys(colors)
@@ -67,16 +65,7 @@ const DesignPreview = styled.div<{ name: string, colors: colorsType }>`
         }
     }
 `;
-const ImagePreview = styled.img`
-    margin: 10px; 
-    height: 300px;
-    width: 300px;
-    border: 1px solid var(--default-color);
-    padding: 5px;
-    object-fit:cover;
 
-    animation:circling-shadow-small 4s ease 0s infinite normal;
-`;
 const StyledAccordionPreview = styled.div< { colorVar: string }>`
     border: 4px solid ${({ colorVar }) => `var(${colorVar})`};
     height: 300px;
@@ -172,7 +161,6 @@ export const DesignSettings = ({ design, setDesign, themes, setThemes }: props) 
 
     const setName = (name: string) => setDesign({ ...design, name: name });
     const setColors = (colors: colorsType) => setDesign({ ...design, colors: colors });
-    const setImage = (image: string) => setDesign({ ...design, image: image });
 
     // check if design does exist already
     useEffect(() => {
@@ -229,21 +217,6 @@ export const DesignSettings = ({ design, setDesign, themes, setThemes }: props) 
                     <SectionDivider />
 
                     <SettingElement>
-                        <OptionTextInput
-                            value={design.image}
-                            onChange={setImage}
-                            placeholder={"Image URL"}
-                        />
-                        <OptionSlider
-                            currentValue={design.image}
-                            values={images}
-                            onChange={setImage}
-                        />
-                    </SettingElement>
-
-                    <SectionDivider />
-
-                    <SettingElement>
                         <ColorPicker
                             colors={design.colors}
                             setColors={setColors}
@@ -269,9 +242,8 @@ export const DesignSettings = ({ design, setDesign, themes, setThemes }: props) 
                 </StyledSettingsContent>
             </div>
             <DesignPreview name={design.name} colors={design.colors} >
-                <ImagePreview src={design.image} />
                 <AccordionPreviewContainer>
-                    <AccordionPreview title={"Default"} colorVar={"--default-color"} />
+                    <AccordionPreview title={"Text Color"} colorVar={"--default-color"} />
                     <AccordionPreview title={"Accent"} colorVar={"--accent-color"} />
                     <AccordionPreview title={"Accent 2"} colorVar={"--accent-color2"} />
                 </AccordionPreviewContainer>
@@ -283,7 +255,6 @@ export const DesignSettings = ({ design, setDesign, themes, setThemes }: props) 
 const themeEquals = (theme1: Theme, theme2: Theme) => {
     let isEqual = true;
     if (theme1.name !== theme2.name) isEqual = false;
-    if (theme1.image !== theme2.image) isEqual = false;
     Object.keys(theme1.colors).forEach((key) => {
         if (theme1.colors[key] !== theme2.colors[key]) isEqual = false;
     })

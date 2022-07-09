@@ -43,24 +43,6 @@
     }
 }
 
-@keyframes text-flicker {
-    from {
-        text-shadow: 1px 0 0 var(--accent-color), -2px 0 0 var(--accent-color2);
-    }
-    to {
-        text-shadow: 2px 0.5px 2px var(--accent-color), -1px -0.5px 2px var(--accent-color2);
-    }
-}
-
-@keyframes box-flicker {
-    from {
-        filter: drop-shadow(1px 0 0 var(--accent-color)) drop-shadow(-2px 0 0 var(--accent-color2));
-    }
-    to {
-        filter: drop-shadow(2px 0.5px 2px var(--accent-color)) drop-shadow( -1px -0.5px 2px var(--accent-color2));
-    }
-}
-
 @keyframes accordion-hover {
     0% {
         clip: rect(9px, 9999px, 99px, 0);

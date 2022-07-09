@@ -25,7 +25,6 @@ const LinkItem = styled.a`
 
     :hover, :focus {
         color: var(--accent-color2);
-        animation:text-flicker 0.01s ease 0s infinite alternate;
         outline: none;
     }
 

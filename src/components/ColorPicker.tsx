@@ -25,7 +25,6 @@ const ColorOption = styled.div<{ active: boolean }>`
     color: ${({ active }) => active && "var(--accent-color)"};
     :hover {
         color: var(--accent-color2);
-        animation:text-flicker 0.01s ease 0s infinite alternate;
     }
 `;
 

@@ -1,5 +1,3 @@
-import pic_1 from "./pictures/TricityMonsters.gif";
-
 export type dataElem = {
 	label: string,
 	value: string,
@@ -137,10 +135,6 @@ export const links: linkGroup[] = [
 	},
 ]
 
-export const images: dataElem[] = [
-	{ label: "pic_1", value: pic_1 },
-];
-
 export const searchEngines: dataElem[] = [
 	{
 		label: "DuckDuckGo",
@@ -149,10 +143,6 @@ export const searchEngines: dataElem[] = [
 	{
 		label: "Google",
 		value: "google.com/search",
-	},
-	{
-		label: "Qwant",
-		value: "qwant.com/",
 	},
 ];
 
@@ -188,13 +178,11 @@ export type colorsType = {
 export type Theme = {
 	name: string;
 	colors: colorsType;
-	image: string;
 }
 
 export const themes: Theme[] = [
 	{
 		name: "DeathAndMilk",
-		image: pic_1,
 		colors: {
 			"--bg-color": "#2E2E2E",
 			"--default-color": "#E6E6E6",
@@ -204,7 +192,6 @@ export const themes: Theme[] = [
 	},
 	{
 		name: "Pop!OS",
-		image: "https://oswallpapers.com/wp-content/uploads/2019/04/kate-hazen-unleash-your-robot.jpg",
 		colors: {
 			"--bg-color": "#333136",
 			"--default-color": "#2BC5EB",
@@ -214,7 +201,6 @@ export const themes: Theme[] = [
 	},
 	{
 		name: "Dark Souls",
-		image: "https://i.pinimg.com/originals/16/74/db/1674dbae45cd38f3d3b4c00dc8616bd7.gif",
 		colors: {
 			"--bg-color": "#32323C",
 			"--default-color": "#A0A08C",
@@ -224,7 +210,6 @@ export const themes: Theme[] = [
 	},
 	{
 		name: "S.E.Lain",
-		image: "https://64.media.tumblr.com/54a945edd2641e20859d6f6537cd7423/tumblr_pwa4bogz4N1qze3hdo2_r1_500.gifv",
 		colors: {
 			"--bg-color": "#0a1a25",
 			"--default-color": "#a6b7ab",
@@ -234,7 +219,6 @@ export const themes: Theme[] = [
 	},
 	{
 		name: "Kitties",
-		image: "https://64.media.tumblr.com/5a232d5c0999d02388d78e5c1025f94f/0572516693bf4014-3d/s500x750/0306dc89b657093529aa3ce96e64b9c43572e901.gifv",
 		colors: {
 			"--bg-color": "#495662",
 			"--default-color": "#d1f1fa",
@@ -244,7 +228,6 @@ export const themes: Theme[] = [
 	},
 	{
 		name: "pretty chill",
-		image: "https://e4p7c9i3.stackpathcdn.com/wp-content/uploads/2019/05/tumblr_oymsnbT0111vjxiz1o1_1280.gif?iv=165",
 		colors: {
 			"--bg-color": "#397d76",
 			"--default-color": "#f1daba",

@@ -14,15 +14,6 @@ const StyledIconButton = styled.button<{ inverted?: boolean }>`
     justify-content: center;
     align-items: center;
 
-    :enabled:hover{
-        ${({ inverted }) => inverted ?
-        `filter: 
-            drop-shadow(2px 2px 0 var(--accent-color))
-            drop-shadow(-2px -2px 0 var(--accent-color))
-            drop-shadow(-2px 2px 0 var(--accent-color))
-            drop-shadow(2px -2px 0 var(--accent-color))`
-        : "animation: box-flicker 0.01s ease 0s infinite alternate"};
-    }
     :focus{
         outline: none;
     }
