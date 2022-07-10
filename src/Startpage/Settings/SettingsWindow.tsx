@@ -8,7 +8,6 @@ import { IconButton } from "../../components/IconButton";
 import { LinkSettings } from "./LinkSettings/LinkSettings";
 import { SearchSettings } from "./SearchSettings/SearchSettings";
 import { DesignSettings } from "./DesignSettings/DesignSettings";
-import { Changelog } from "./Changelog/Changelog";
 
 const StyledSettingsWindow = styled.div`
     background-color: var(--bg-color);
@@ -122,7 +121,6 @@ const TabOptions = [
     "Links",
     "Appearance",
     "Searchbar",
-    "Changelog",
 ];
 
 type props = {
@@ -185,8 +183,6 @@ export const SettingsWindow = ({ hidePopup }: props) => {
                         searchSettings={searchSettings}
                         setSearchSettings={setSearchSettings}
                     />}
-
-                {currentTab === "Changelog" && <Changelog />}
             </WindowContent>
 
             <WindowFooter>
