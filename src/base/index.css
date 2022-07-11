@@ -11,19 +11,19 @@ body {
  *   	  Fonts 		  *
  ********************/
 @font-face {
-	font-family: 'Fira Code';
+	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 300;
-	src: local('Fira Code'), url('./FiraCode-Light.woff') format('woff');
+	src: local('Roboto'), url('./Roboto-Light.woff') format('woff');
 }
 @font-face {
-	font-family: 'Fira Code';
+	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 500;
-	src: local('Fira Code'), url('./FiraCode-Regular.woff') format('woff');
+	src: local('Roboto'), url('./Roboto-Regular.woff') format('woff');
 }
 body * {
-	font-family: "Fira Code";
+	font-family: "Roboto";
 	font-weight: 300;
 }
 
