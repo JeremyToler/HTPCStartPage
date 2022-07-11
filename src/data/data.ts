@@ -158,66 +158,66 @@ export type Theme = {
 
 export const themes: Theme[] = [
 	{
-		name: "DeathAndMilk",
+		name: "Hornet",
 		colors: {
-			"--bg-color": "#2E2E2E",
-			"--default-color": "#E6E6E6",
-			"--accent-color": "#FFB4E6",
-			"--accent-color2": "#B4FFE6",
+			"--bg-color": "#121b2a",
+			"--default-color": "#ffffff",
+			"--accent-color": "#5e182a",
+			"--accent-color2": "#d6c4c8",
 		},
 	},
 	{
-		name: "MilkAndDeath",
+		name: "Radiance",
 		colors: {
-			"--bg-color": "#2E2E2E",
-			"--default-color": "#E6E6E6",
-			"--accent-color": "#B4FFE6",
-			"--accent-color2": "#FFB4E6",
+			"--bg-color": "#ad6d51",
+			"--default-color": "#ffffff",
+			"--accent-color": "#e8b983",
+			"--accent-color2": "#e8966a",
 		},
 	},
 	{
-		name: "Pop!OS",
+		name: "Crystal Peaks",
 		colors: {
-			"--bg-color": "#333136",
-			"--default-color": "#2BC5EB",
-			"--accent-color": "#FCD307",
-			"--accent-color2": "#2BC5EB",
+			"--bg-color": "#131230",
+			"--default-color": "#dcaedc",
+			"--accent-color": "#7f5faa",
+			"--accent-color2": "#3e3993",
 		},
 	},
 	{
-		name: "Dark Souls",
+		name: "City of Tears",
 		colors: {
-			"--bg-color": "#32323C",
-			"--default-color": "#A0A08C",
-			"--accent-color": "#9A6650",
-			"--accent-color2": "#461E28",
+			"--bg-color": "#121b2a",
+			"--default-color": "#ffffff",
+			"--accent-color": "#2e2961",
+			"--accent-color2": "#326f8b",
 		},
 	},
 	{
-		name: "S.E.Lain",
+		name: "Greenpath",
 		colors: {
-			"--bg-color": "#0a1a25",
-			"--default-color": "#a6b7ab",
-			"--accent-color": "#94656b",
-			"--accent-color2": "#57182e"
+			"--bg-color": "#153960",
+			"--default-color": "#ffffff",
+			"--accent-color": "#538d60",
+			"--accent-color2": "#ec721f"
 		}
 	},
 	{
-		name: "Kitties",
+		name: "Grimm",
 		colors: {
-			"--bg-color": "#495662",
-			"--default-color": "#d1f1fa",
-			"--accent-color": "#80aad4",
-			"--accent-color2": "#e8a9b7"
+			"--bg-color": "#231b26",
+			"--default-color": "#c2b0ac",
+			"--accent-color": "#a32e4b",
+			"--accent-color2": "#df717c"
 		}
 	},
 	{
-		name: "Pretty Chill",
+		name: "The Hive",
 		colors: {
-			"--bg-color": "#397d76",
-			"--default-color": "#f1daba",
-			"--accent-color": "#c5bdb5",
-			"--accent-color2": "#93a662"
+			"--bg-color": "#703e3c",
+			"--default-color": "#fed173",
+			"--accent-color": "#ff9e53",
+			"--accent-color2": "#ec711e"
 		}
 	}
 ]
