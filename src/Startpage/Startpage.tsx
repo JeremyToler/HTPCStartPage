@@ -7,7 +7,6 @@ import { Searchbar } from "./Searchbar/Searchbar";
 import { Settings } from "./Settings/Settings";
 
 const Wrapper = styled.div`
-    max-width:1920px;
     height:100%;
     margin: auto;
     position: relative;

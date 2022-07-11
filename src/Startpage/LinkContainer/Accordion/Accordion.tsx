@@ -4,7 +4,7 @@ import styled from "@emotion/styled";
 const StyledAccordionContainer = styled.div`
     margin-left: 100px;
     display:flex;
-    width:calc(100% - 400px - 100px);
+    min-width:calc(100% - 400px - 100px);
 `;
 
 export const AccordionContainer = (props: PropsWithChildren<{}>) => {
