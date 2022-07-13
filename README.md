@@ -1,27 +1,18 @@
-![logo](https://github.com/PrettyCoffee/fluidity/blob/main/public/logo192.png)
+# Edited version of [Fluidity](https://github.com/PrettyCoffee/fluidity) - An accordion based startpage
+My version has been edited to make it work better for a 10ft user interface. I use this on my TV in my living room. 
 
-# Fluidity - An accordion based startpage
-Here you can find the startpage I created for my browser :)
+You can see it in action [here](https://jeremytoler.github.io/HTPCStartPage/).
 
-If you have any problems or miss a feature, create an issue and I will take a look at it! Of course, if you want to add a feature yourself you can just create a fork and contribute ;)
-
-## Showcase
-### The startpage in action
-I created a [reddit post](https://www.reddit.com/r/startpages/comments/m82izg/my_new_startpage_any_ideas_for_names/) on r/startpages. There you can see a short video where I show all available features.
-
-You can also just take a look at the [Live Demo](https://prettycoffee.github.io/fluidity/).
-
-### Themes
-![Default theme](https://github.com/PrettyCoffee/fluidity/blob/main/docs/default-theme.png)
-![Dark Souls theme](https://github.com/PrettyCoffee/fluidity/blob/main/docs/DarkSouls-theme.png)
-![Pop!OS theme](https://github.com/PrettyCoffee/fluidity/blob/main/docs/pop!os-theme.png)
-**If you created a theme and want to see it here, hit me up!**
+### Comparison
+![Original](https://github.com/PrettyCoffee/fluidity/blob/main/docs/default-theme.png)
+![This version](XXXX)
+I use the original version from @prettycoffee on my laptop and work PC.
 
 ## Usage
 You can apply startpages by using several methods. To keep it simple, I will only cover one (the easiest) here:
 1. Download a New Tab Override Plugin (e.g. [Chrome](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna) | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/))
 1. Open the Plugins Settings
-1. Paste `https://prettycoffee.github.io/fluidity/` into the text field to set it up as your startpage
+1. Paste `https://jeremytoler.github.io/HTPCStartPage/` into the text field to set it up as your startpage
 
 ## Local Setup
 If you do not want to rely on my github page, thats totally okay!
@@ -62,7 +53,7 @@ Since this project is programmed with React and TypeScript, you will first need 
 
 ## Sources
 
-* [Pictures - DeathAndMilk](https://www.instagram.com/deathandmilk_/)
+* [Fluidity](https://github.com/PrettyCoffee/fluidity)
 * [Icons - FontAwesome](https://fontawesome.com/icons)
 * [Text Flicker - CodeMyUI](https://codemyui.com/crt-screen-text-flicker-animation-in-pure-css/)
 * [Wave Animation - mburakerman](https://codepen.io/mburakerman/pen/eRZZEv)
