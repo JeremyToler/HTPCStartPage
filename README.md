@@ -1,12 +1,13 @@
-# Edited version of [Fluidity](https://github.com/PrettyCoffee/fluidity) - An accordion based startpage
-My version has been edited to make it work better for a 10ft user interface. I use this on my TV in my living room. 
-
-You can see it in action [here](https://jeremytoler.github.io/HTPCStartPage/).
+# Edited version of Fluidity - An accordion based startpage
+This version has been edited for a 10ft user interface. 
+I removed the image, increased the size of fonts, changed fonts, etc.. with the intent of making it easier to read while viewed on a TV from a couch. 
 
 ### Comparison
+#### Original [Fluidity](https://github.com/PrettyCoffee/fluidity)
 ![Original](https://github.com/PrettyCoffee/fluidity/blob/main/docs/default-theme.png)
-![This version](XXXX)
-I use the original version from @prettycoffee on my laptop and work PC.
+#### This version - [Demo](https://jeremytoler.github.io/HTPCStartPage/)
+![This version](https://github.com/JeremyToler/HTPCStartPage/blob/main/Screenshot.png)
+
 
 ## Usage
 You can apply startpages by using several methods. To keep it simple, I will only cover one (the easiest) here:
