@@ -24,7 +24,7 @@ body {
 }
 body * {
 	font-family: "Roboto";
-	font-weight: 300;
+	font-weight: 500;
 }
 
 /********************
@@ -48,7 +48,9 @@ a, a:visited, a:active {
 	color: var(--default-color);
 	text-decoration: none;
 }
-
+h1{
+	font-size:2rem;
+}
 
 
 /********************

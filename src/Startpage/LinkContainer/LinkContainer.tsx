@@ -8,7 +8,7 @@ const LinkItem = styled.a`
     white-space: nowrap;
     position:relative;
     padding: 10px 0 10px 30px;
-    font-size:1.5rem;
+    font-size:1.4rem;
 
     ::before{
         position:absolute;
